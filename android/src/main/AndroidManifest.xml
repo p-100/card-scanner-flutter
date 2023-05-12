@@ -10,7 +10,7 @@
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="ocr"
-            tools:replace="android:value" />
+            tools:node="merge-only-attributes" />
         <activity
             android:name=".CardScannerCameraActivity"
             android:screenOrientation="portrait"
