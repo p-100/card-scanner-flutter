@@ -9,8 +9,8 @@
     <application>
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="ocr"
-            tools:node="merge" />
+            android:value="ocr,barcode,face"
+            tools:replace="merge" />
         <activity
             android:name=".CardScannerCameraActivity"
             android:screenOrientation="portrait"
