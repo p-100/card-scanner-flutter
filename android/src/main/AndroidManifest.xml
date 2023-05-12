@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.nateshmbhat.card_scanner">
 
     <uses-feature android:name="android.hardware.camera.any" />
@@ -8,7 +9,8 @@
     <application>
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
-            android:value="ocr" />
+            android:value="ocr"
+            tools:replace="android:ocr" />
         <activity
             android:name=".CardScannerCameraActivity"
             android:screenOrientation="portrait"
